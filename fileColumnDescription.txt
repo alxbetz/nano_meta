@@ -1,0 +1,35 @@
+goEnrichmentxGenes: 
+left join of per contrast gene table and GO enrichment table :
+
+GO.ID	Gene Ontology ID that the gene 'gid' is annotated with
+gid	Gene ID
+eid	expression set ID from GEO(gene expression omnibus)
+contrast	contrast used in limma to determine fold change
+Term	Title of the GO Term
+Annotated	How many genes are annotated with this term in this organism
+Significant	How many of the annotated genes are differentially expressed
+Expected	How many genes are expected to be differentially expressed in this group
+elimKS	p-value of the elimination Kolmogorov Smirnov test for ontology enrichment
+medianFC	median fold change observed for a gene with this GO term in this contrast
+meanFC	mean fold change observed for a gene with this GO term in this contrast
+minFC	minimum fold change observed for a gene with this GO term in this contrast
+maxFC	maximum fold change observed for a gene with this GO term in this contrast
+FC	Fold change for this gene in this contrast
+species	The species under consideration
+
+
+topTable:
+logFC log fold change
+AveExpr	Average expression value 
+t	moderated t-test value
+P.Value	uncorrected p-value
+adj.P.Val	benjamini-hochberg adjusted p-value
+B	moderated B-statistic
+locusID	locus ID
+
+esetsNormMerged.Robj:
+load into R with 'load(esetsNormMerged.Robj,verbose=T)'
+list of 3 dataframes: one for each species
+rows: gene ids
+columns: sample ids
+values: quantile normalised fluorescent intensities

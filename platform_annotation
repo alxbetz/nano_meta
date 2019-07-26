@@ -1,0 +1,8 @@
+GEO_platform	organism	manufacturer	stable_id	design_year	last_annotation_update
+GPL198	athaliana	affymetrix	ENTREZ_GENE_ID	2003	2016
+GPL200	celegenas	affymetrix	ENTREZ_GENE_ID	2003	2016
+GPL16933	drerio	affymetrix	SPOT_ID	-	2013#genomic location of the transcript cluster in the version of the genome assembly used at annotation time. Coordinates are standard 1-based (length=stop-start+1)
+GPL14664	drerio	agilent	GB_ACC	2011	2015#starting barcodes (16026437,2526437)
+GPL21361	drerio	agilent	GB_ACC	-	2016 #(similar to GPL14664 GPL15450) starting barcodes	(16049002,2549002)
+GPL14688	drerio	agilent	GB_ACC	-	2011# barcode ids (16026437 or 2526437), same as GPL14664 but agilent probe names in NAME column instead of ID column as in GPL14664
+GPL10094	celegans	agilent	GB_ACC	2010	2012

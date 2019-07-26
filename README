@@ -1,0 +1,17 @@
+enrichmentTables:
+the 100 GO terms with the lowest Kolmogorov-Smirnov p-values for every contrast considered
+
+esetsMergedNorm.Robj
+within and between experiment normalised fluorescent intensity values
+
+goEnrichmentXGenes:
+FC of all genes along with corresponding GO terms and info about fold change statistics of genes associated to the GO term
+
+platform_annotation:
+information about design time and annotation update of the microarray platforms used
+
+runfile_platforms:
+table of all input parameters used for running the datasets in our pipeline
+
+topTables:
+limma output tables for all contrasts considered
